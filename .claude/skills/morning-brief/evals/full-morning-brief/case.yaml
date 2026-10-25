@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: full-morning-brief
+expected_outcome: |
+  A structured chat brief with Top 3, a money-due table, today's IST schedule, one section per area (Store, Cards & insurance, Trading, IT/job, Malkan) and an FYI list, built only from read-only gws calls.

@@ -1,0 +1,16 @@
+{
+  "channel": "@Malkansview01",
+  "keywords": ["REC", "PFC", "LTF", "Glenmark", "cup pattern", "cup and handle", "bank nifty", "best trade", "strategy", "GFS", "RSI strategy"],
+  "rank_by": "views",
+  "keyword_weight": 0.7,
+  "engagement_weight": 0.3,
+  "keyword_saturation": 3,
+  "min_views": 0,
+  "min_likes": 0,
+  "date_from": null,
+  "date_to": null,
+  "include_shorts": false,
+  "shorts_max_seconds": 60,
+  "transcript_languages": ["en", "hi", "bn"],
+  "top_n": 30
+}

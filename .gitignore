@@ -2,3 +2,10 @@
 CLAUDE.local.md
 .claude/settings.local.json
 node_modules/
+
+# Google OAuth / gws credentials
+client_secret*.json
+credentials.json
+
+# Disposable caches (YouTube scraper etc.)
+.tmp/

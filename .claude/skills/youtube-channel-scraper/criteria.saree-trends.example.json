@@ -1,0 +1,16 @@
+{
+  "channel": "@REPLACE_WITH_SAREE_CHANNEL",
+  "keywords": ["saree", "banarasi", "kanjivaram", "organza", "bridal", "wedding collection", "new arrival", "trending", "wholesale", "Surat"],
+  "rank_by": "views",
+  "keyword_weight": 0.6,
+  "engagement_weight": 0.4,
+  "keyword_saturation": 3,
+  "min_views": 5000,
+  "min_likes": 0,
+  "date_from": "2026-01-01",
+  "date_to": null,
+  "include_shorts": true,
+  "shorts_max_seconds": 60,
+  "transcript_languages": ["en", "hi", "bn"],
+  "top_n": 30
+}

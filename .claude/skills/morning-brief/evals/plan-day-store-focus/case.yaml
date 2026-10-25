@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: plan-day-store-focus
+expected_outcome: |
+  Full brief whose Top 3 includes a Ma Lakhsmi Stores launch item tied to a current priority, with free time blocks outside LTIM hours.

@@ -1,0 +1,50 @@
+{
+  "_note": "PLACEHOLDER defaults for Ma Lakhsmi Stores. Copy this file, overwrite with real numbers, and pass it to build_otb.py. All amounts in INR, ex-GST.",
+  "store_name": "Ma Lakhsmi Stores",
+  "plan_start": "2026-11-01",
+  "working_capital": 1000000,
+  "setup_costs": 250000,
+  "base_monthly_sales": 135000,
+  "gst_rate": 0.05,
+  "buffer_months": 2,
+  "thresholds": {
+    "mix_tolerance": 0.05,
+    "min_sell_through": 0.4,
+    "max_weeks_cover": 12,
+    "aging_watch_days": 60,
+    "aging_markdown_days": 90,
+    "aging_dead_days": 120
+  },
+  "fixed_costs": {
+    "Rent": 25000,
+    "Staff salaries (4)": 60000,
+    "Electricity": 5000,
+    "Loan EMI": 0,
+    "Marketing (WhatsApp API, ads)": 8000,
+    "Misc / maintenance": 5000
+  },
+  "categories": [
+    {"name": "Daily Wear", "mix": 0.30, "gross_margin": 0.60, "months_cover": 1.5, "opening_stock": 0,
+     "split": {"Surat": 0.70, "Burrabazar": 0.20, "Other": 0.10}},
+    {"name": "Festive Handlooms", "mix": 0.35, "gross_margin": 0.60, "months_cover": 2.0, "opening_stock": 0,
+     "split": {"Surat": 0.10, "Burrabazar": 0.60, "Other": 0.30}},
+    {"name": "Party Wear Synthetics", "mix": 0.25, "gross_margin": 0.60, "months_cover": 1.5, "opening_stock": 0,
+     "split": {"Surat": 0.85, "Burrabazar": 0.15, "Other": 0.00}},
+    {"name": "Bridal", "mix": 0.10, "gross_margin": 0.60, "months_cover": 3.0, "opening_stock": 0,
+     "split": {"Surat": 0.30, "Burrabazar": 0.50, "Other": 0.20}}
+  ],
+  "seasonality": [
+    {"month": "Jan", "index": 1.10, "reason": "Wedding season"},
+    {"month": "Feb", "index": 1.10, "reason": "Wedding season, Saraswati Puja"},
+    {"month": "Mar", "index": 0.90, "reason": "Year-end lull"},
+    {"month": "Apr", "index": 1.20, "reason": "Poila Boishakh"},
+    {"month": "May", "index": 0.90, "reason": "Summer, some weddings"},
+    {"month": "Jun", "index": 0.70, "reason": "Monsoon slowdown"},
+    {"month": "Jul", "index": 0.70, "reason": "Monsoon slowdown"},
+    {"month": "Aug", "index": 0.80, "reason": "Pre-Puja build-up starts"},
+    {"month": "Sep", "index": 1.40, "reason": "Durga Puja shopping"},
+    {"month": "Oct", "index": 1.60, "reason": "Durga Puja / Diwali peak"},
+    {"month": "Nov", "index": 1.20, "reason": "Wedding season starts"},
+    {"month": "Dec", "index": 1.20, "reason": "Wedding season"}
+  ]
+}
